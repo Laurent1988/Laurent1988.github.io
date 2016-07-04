@@ -1,14 +1,22 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Développeur web Magento e-commerce à Nantes / Amiens - Création de sites internet - laurentlepee.com
+email: contact@laurentlepee.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Développeur Magento à Nantes, je crée des sites internet de vente en ligne e-commerce avec la solution Magento.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.laurentlepee.com" # the base hostname & protocol for your site
+twitter_username: laurentlepee
+github_username:  laurentlepee
+linkedin_username:  laurentlepee
+viadeo_username:  laurent.lepee 
 
 # Build settings
 markdown: kramdown
+
+# Jekyll plugin
+gems: [jekyll-seo-tag, jekyll-sitemap]
+
+# Jekyll seo tag
+twitter:
+  username: laurentlepee
+#google_site_verification:
